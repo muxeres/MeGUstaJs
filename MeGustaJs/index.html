@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes CG</title>
+    
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar"><h1>Network</h1></nav>
+    <h1 class="title">your feed</h1>
+    <main class="main">
+        <div class="col-1">
+            <ul class="avatar">
+                <li><img class="img" src="images/user-circle.png" alt="user-circle"></li>
+                <li><a href="#">add an avatar</a></li>
+                <li><h2>Coquelicot</h2></li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <div class="content-card">
+                <div class="top-nav">
+                    <ul class="card-user">
+                        <li><h2>Neil M</h1></li>
+                        <li><p id="like">0 like(s)</p></li>
+                        <li><button class="btn-1" id="btn-1" onclick="addLike(this)" onmouseover="addStyleOver(this)" onmouseout="addStyleOut(this)">Like</button></li>
+                    </ul>
+                </div>
+                <p class="text">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="content-card">
+                <div class="top-nav">
+                    <ul class="card-user">
+                        <li><h2>Nichole K</h1></li>
+                        <li><p id="like">0 like(s)</p></li>
+                        <li><button class="btn-1" id="btn-2" onclick="addLike(this)" onmouseover="addStyleOver(this)" onmouseout="addStyleOut(this)">Like</button></li>
+                    </ul>
+                </div>
+                <p class="text">Just finished my <a href="#">next comic</a>, check it out</p>
+            </div>
+            <div class="content-card">
+                <div class="top-nav">
+                    <ul class="card-user"> 
+                        <li><h2 class=>Jim R</h1></li>
+                        <li><p id="like">0 like(s)</p></li>
+                        <li><button class="btn-1" id="btn-3" onclick="addLike(this)" onmouseover="addStyleOver(this)" onmouseout="addStyleOut(this)">Like</button></li>
+                    </ul>
+                </div>
+                <p class="text">I can't stop listening to the <a href="#">new album</a>.<br> Who else is liking it?</p>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
